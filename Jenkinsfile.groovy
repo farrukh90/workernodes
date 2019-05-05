@@ -1,4 +1,4 @@
-node (label 'linux') {
+node ('label linux') {
     stage("Hello"){
         sh "echo Hello"
     }
